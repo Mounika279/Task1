@@ -507,3 +507,265 @@ h3 {
     font-size:50px;
     font-weight: bolder;
 }
+/* Mobile devices (small screens, 600px and below) */
+@media only screen and (max-width: 600px) {
+    .content {
+        height: auto;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    #down {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .inside {
+        top: 0;
+        transform: none;
+    }
+    .sidebar {
+        left: 0;
+        top: 0;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .number, .start {
+        top: 0;
+        left: 0;
+    }
+    .start {
+        width: 100%;
+    }
+    #bgred, #bgdark {
+        width: 100%;
+        height: auto;
+    }
+    .bigstar {
+        position: static;
+        height: 100px;
+        width: 100%;
+    }
+    .projects {
+        font-size: 30px;
+        top: 0;
+        left: 0;
+    }
+    .separator {
+        top: 0;
+        left: 0;
+    }
+    .info-group {
+        top: 0;
+        left: 0;
+    }
+    .sidewalk-row1, .sidewalk-row2 {
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container3, .container4 {
+        height: auto;
+    }
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-right {
+        margin-left: 0;
+    }
+    .services-section h2, .difference-section h2, .contact-section h3 {
+        font-size: 1.5em;
+    }
+    .services-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-list ul {
+        width: 100%;
+    }
+    .form, .sec-section {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 20px;
+    }
+    .form button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Tablets (portrait and landscape, 600px to 900px) */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    .content {
+        height: auto;
+        justify-content: flex-start;
+        padding: 20px;
+    }
+    #down {
+        top: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .inside {
+        top: 0;
+        transform: none;
+    }
+    .sidebar {
+        left: 0;
+        top: 0;
+        flex-direction: row;
+        gap: 5px;
+    }
+    .number, .start {
+        top: 0;
+        left: 0;
+    }
+    .start {
+        width: 100%;
+    }
+    #bgred, #bgdark {
+        width: 100%;
+        height: auto;
+    }
+    .bigstar {
+        position: static;
+        height: 100px;
+        width: 100%;
+    }
+    .projects {
+        font-size: 30px;
+        top: 0;
+        left: 0;
+    }
+    .separator {
+        top: 0;
+        left: 0;
+    }
+    .info-group {
+        top: 0;
+        left: 0;
+    }
+    .sidewalk-row1, .sidewalk-row2 {
+        top: 0;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    .container3, .container4 {
+        height: auto;
+    }
+    .about-section {
+        flex-direction: column;
+        text-align: center;
+    }
+    .about-right {
+        margin-left: 0;
+    }
+    .services-section h2, .difference-section h2, .contact-section h3 {
+        font-size: 1.5em;
+    }
+    .services-list {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services-list ul {
+        width: 100%;
+    }
+    .form, .sec-section {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+        margin-bottom: 20px;
+    }
+    .form button {
+        width: 100%;
+        margin-left: 0;
+    }
+}
+
+/* Desktops and laptops (landscape, 901px and above) */
+@media only screen and (min-width: 901px) {
+    .content {
+        height: 102vh;
+        justify-content: center;
+    }
+    #down {
+        top: 0;
+        left: calc(50% - 50px);
+    }
+    .inside {
+        top: 140px;
+    }
+    .sidebar {
+        left: -720px;
+        top: -110px;
+        flex-direction: column;
+    }
+    .number {
+        top: -80px;
+    }
+    .start {
+        top: -110px;
+        left: 40px;
+    }
+    #bgred {
+        top: -16px;
+    }
+    #bgdark {
+        top: -16px;
+    }
+    .bigstar {
+        top: -261px;
+        left: 350px;
+        height: 150px;
+        width: 450px;
+    }
+    .projects {
+        top: -250px;
+        left: -120px;
+    }
+    .separator {
+        top: -250px;
+        left: -122px;
+    }
+    .info-group {
+        top: 280px;
+        left: -150px;
+    }
+    .sidewalk-row1, .sidewalk-row2 {
+        top: -250px;
+        left: -170px;
+    }
+    .container3 {
+        height: 100vh;
+    }
+    .about-section {
+        flex-direction: row;
+        text-align: left;
+    }
+    .about-right {
+        margin-left: 20px;
+    }
+    .services-section h2, .difference-section h2, .contact-section h3 {
+        font-size: 2em;
+    }
+    .services-list {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .services-list ul {
+        width: auto;
+    }
+    .form, .sec-section {
+        width: 30%;
+        left: auto;
+        transform: none;
+        margin-bottom: 0;
+    }
+    .form button {
+        width: 100px;
+        margin-left: 150px;
+    }
+}
